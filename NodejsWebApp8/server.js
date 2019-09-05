@@ -7,7 +7,12 @@ const middlewares = [
 ];
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
+app.use(body.urlencoded ( {
+    extended:false
+}))
 app.use(express.static(__dirname + '/public'));
+app.use(express.static('Images'));
+app.use(express.static('css'));
 
 let db = [];
 var Name = "";
