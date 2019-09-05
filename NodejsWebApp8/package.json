@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-web-app8",
+  "version": "0.0.0",
+  "description": "NodejsWebApp8",
+  "main": "server.js",
+  "author": {
+    "name": "Mthokozisi"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.16.3",
+    "git": "^0.1.5",
+    "mongodb": "^3.1.3",
+    "morgan": "^1.9.0"
+  }
+}

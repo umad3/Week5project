@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>New Task</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+    <a href="/"><h2>Home</h2></a>
+    <a href="/listtasks"><h2>List All Tasks</h2></a>
+
+    <form action="/newtask" method="get">
+        <label for="taskName"><strong>Task Name: </strong></label>
+        <input type="text" name="taskname" id="taskname" placeholder="Task Name" /><br />
+        <label for="taskDue"><strong>Task Due: </strong></label>
+        <input type="text" name="taskdue" id="taskdue" placeholder="Task Due" /><br />
+        <label for="taskDesc"><strong>Task Desc: </strong></label>
+        <input type="text" name="taskdesc" id="taskdesc" placeholder="Task Description" /><br />
+        <br /><br /><br />
+        <input type="submit" name="submit" value="Submit" />
+    </form>
+
+</body>
+</html>

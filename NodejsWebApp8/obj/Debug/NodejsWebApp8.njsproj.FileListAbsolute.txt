@@ -1,0 +1,3 @@
+C:\Users\Unathi Madonsela\Desktop\E-business\Labs\repos\NodejsWebApp8\NodejsWebApp8\obj\Debug\NodejsWebApp8.njsprojAssemblyReference.cache
+C:\Users\Unathi Madonsela\Desktop\E-business\Labs\repos\NodejsWebApp8\NodejsWebApp8\obj\Debug\NodejsWebApp8.njsproj.CoreCompileInputs.cache
+C:\Users\Unathi Madonsela\Desktop\E-business\Labs\repos\NodejsWebApp8\NodejsWebApp8\bin\Microsoft.NodejsTools.WebRole.dll

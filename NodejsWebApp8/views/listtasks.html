@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>List tasks</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+    <a href="/"><h2>Home</h2></a>
+    <a href="/newtask"><h2>Add New Task</h2></a>
+
+    <h3>
+        The existing tasks are:
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>Due</td>
+                <td>Description</td>
+            </tr>
+            <% for ( var i =0; i< tasksDb.length;i++){ %>
+            <tr>
+                <td>
+                    <%= tasksDb[i].TaskName %>
+                </td>
+                <td>
+                    <%= tasksDb[i].TaskDue %>
+                </td>
+                <td>
+                    <%= tasksDb[i].TaskDesc %>
+                </td>
+            </tr>
+            <% }%>
+    </h3>
+
+</body>
+</html>
